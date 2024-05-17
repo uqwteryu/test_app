@@ -2,7 +2,7 @@
 
 Project Structure:
 
-lib\`\`\`
+lib\\\
 |-- assets/
 |   |-- unnamed.png
 |   |-- da3cj6j-ebe8e371-cb11-4c4c-9a09-7bb101750342.png
