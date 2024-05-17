@@ -1,6 +1,19 @@
 
 # test_app
 
+CS:GO Case Opening Simulator
+
+Summary
+The CS:GO Case Opening Simulator is a Flutter application that allows users to simulate opening cases from the popular game Counter-Strike: Global Offensive (CS:GO). Users can log in, select cases to open, and experience the excitement of obtaining various in-game items with different rarities. The app includes features such as an inventory system to save items, a ranking system based on XP, and customizable settings.
+
+Features
+User Authentication: Log in with a username and password.
+Case Selection: Choose from multiple cases to open.
+Case Opening Animation: Enjoy an immersive case opening animation.
+Inventory Management: Save obtained items to your inventory.
+XP and Ranking System: Gain XP and rank up as you open cases.
+Settings: Customize app settings such as sound, notifications, and case opening speed.
+
 Project Structure:
 
 <pre>
