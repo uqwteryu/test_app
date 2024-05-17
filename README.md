@@ -1,7 +1,4 @@
 
-If the above doesn't render properly in your README, you can try using an HTML `<pre>` tag to preserve whitespace and indentation:
-
-```markdown
 # test_app
 
 Project Structure:
