@@ -3,16 +3,16 @@
 Project Structure:
 
 lib\\\
-|-- assets/
+|-- assets\\\
 |   |-- unnamed.png
 |   |-- da3cj6j-ebe8e371-cb11-4c4c-9a09-7bb101750342.png
 |-- main.dart
-|-- models/
+|-- models\\\
 |   |-- case.dart
 |   |-- user.dart
-|-- providers/
+|-- providers\\\
 |   |-- user_provider.dart
-|-- screens/
+|-- screens\\\
     |-- login_screen.dart
     |-- case_selection_screen.dart
     |-- inventory_screen.dart
