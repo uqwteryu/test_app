@@ -248,16 +248,17 @@ class _CaseOpeningScreenState extends State<CaseOpeningScreen> with SingleTicker
                 ],
               ),
             const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: openCase, // Handle case opening button press
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blueGrey,
+            if (!isOpening && !isOpened) // Only display button if not opening or opened
+              ElevatedButton(
+                onPressed: openCase, // Handle case opening button press
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blueGrey,
+                ),
+                child: const Text(
+                  'Open Case',
+                  style: TextStyle(fontSize: 20),
+                ),
               ),
-              child: const Text(
-                'Open Case',
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
             const SizedBox(height: 20),
             if (!isOpening && !isOpened) // Display case items grid if not opening or opened
               Expanded(

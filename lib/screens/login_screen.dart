@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
     String username = _usernameController.text; // Get username from text controller
     String password = _passwordController.text; // Get password from text controller
 
-    if (username == 'test' && password == 'test123') { // Check if credentials are correct
+    if (username == '' && password == '') { // Check if credentials are correct
       Provider.of<UserProvider>(context, listen: false).login(username, 0, 'Unranked'); // Log in user using UserProvider
       Navigator.pushReplacement( // Navigate to the CaseSelectionScreen after successful login
         context,
