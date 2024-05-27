@@ -44,6 +44,13 @@ class UserProvider with ChangeNotifier {
     _user?.inventory.add(item); // Add the item to the user's inventory
     notifyListeners(); // Notify listeners about the change in user data
   }
+  
+  void removeFromInventory(Map<String, dynamic> item) {
+    if (_user != null) {
+      _user!.inventory.remove(item);
+      notifyListeners();
+    }
+  }
 
   // Method to determine the rank based on the user's experience points (xp)
   String getRankFromXp(int xp) {

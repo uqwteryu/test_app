@@ -1,12 +1,10 @@
-import 'package:flutter/material.dart'; // Flutter Material package
-import 'package:provider/provider.dart'; // Provider package for state management
-import 'package:test_app/providers/user_provider.dart'; // Importing the UserProvider class
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:test_app/providers/user_provider.dart';
 
-// Widget for the inventory screen
 class InventoryScreen extends StatelessWidget {
   InventoryScreen({super.key});
 
-  // Map of rarity colors
   final Map<String, Color> rarityColors = {
     'common': Colors.grey,
     'uncommon': Colors.green,
@@ -15,37 +13,95 @@ class InventoryScreen extends StatelessWidget {
     'legendary': Colors.orange,
   };
 
-  // Build method to construct the UI
   @override
   Widget build(BuildContext context) {
-    final user = Provider.of<UserProvider>(context).user; // Accessing the UserProvider instance and getting the current user
+    final user = Provider.of<UserProvider>(context).user;
 
-    return Scaffold( // Scaffold widget for the overall screen layout
-      appBar: AppBar(title: const Text('Inventory')), // AppBar widget for the top app bar
-      body: user == null || user.inventory.isEmpty // Conditional rendering based on user login status and inventory
-          ? const Center( // Center widget for centering its child
-              child: Text( // Text widget for displaying inventory empty message
-                'Inventory is empty', // Message text
-                style: TextStyle(fontSize: 24), // Text style with font size
+    return Scaffold(
+      appBar: AppBar(title: const Text('Inventory')),
+      body: user == null || user.inventory.isEmpty
+          ? const Center(
+              child: Text(
+                'Inventory is empty',
+                style: TextStyle(fontSize: 24),
               ),
             )
-          : ListView.builder( // ListView.builder widget to display list of inventory items
-              itemCount: user.inventory.length, // Total number of inventory items
-              itemBuilder: (context, index) { // Builder function to build each list item
-                final item = user.inventory[index]; // Getting the inventory item at the current index
-                return ListTile( // ListTile widget for each inventory item
-                  leading: Image.asset(item['image']), // Leading widget for the item image
-                  title: Text( // Title of the inventory item
-                    item['name'], // Name of the item
-                    style: TextStyle(color: rarityColors[item['rarity']]), // Text style with color based on rarity
+          : ListView.builder(
+              itemCount: user.inventory.length,
+              itemBuilder: (context, index) {
+                final item = user.inventory[index];
+                return ListTile(
+                  leading: Image.asset(item['image']),
+                  title: Text(
+                    item['name'],
+                    style: TextStyle(color: rarityColors[item['rarity']]),
                   ),
-                  subtitle: Text( // Subtitle of the inventory item showing rarity
-                    item['rarity'], // Rarity of the item
-                    style: TextStyle(color: rarityColors[item['rarity']]), // Text style with color based on rarity
+                  subtitle: Text(
+                    item['rarity'],
+                    style: TextStyle(color: rarityColors[item['rarity']]),
+                  ),
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        icon: const Icon(Icons.remove_shopping_cart),
+                        onPressed: () {
+                          sellForCoins(context, item);
+                        },
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.info),
+                        onPressed: () {
+                          viewItem(context, item);
+                        },
+                      ),
+                    ],
                   ),
                 );
               },
             ),
     );
   }
+
+  void sellForCoins(BuildContext context, Map<String, dynamic> item) {
+    // Get the UserProvider instance
+    final userProvider = Provider.of<UserProvider>(context, listen: false);
+
+    // Show a snackbar indicating the item sold
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('${item['name']} sold!')),
+    );
+
+    // Remove the sold item from the inventory
+    userProvider.removeFromInventory(item);
+  }
+
+  void viewItem(BuildContext context, Map<String, dynamic> item) {
+  showDialog(
+    context: context,
+    builder: (context) => AlertDialog(
+      title: Text(item['name']),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Image.asset(item['image']),
+          const SizedBox(height: 10),
+          Text('Rarity: ${item['rarity']}'),
+          Text('Float: ${item['float']}'), // Assuming 'float' is a field in the item data
+          Text('Wear: ${item['wear']}'), // Assuming 'wear' is a field in the item data
+          // Add more item details here as needed
+        ],
+      ),
+      actions: [
+        TextButton(
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+          child: const Text('Close'),
+        ),
+      ],
+    ),
+  );
+}
 }
