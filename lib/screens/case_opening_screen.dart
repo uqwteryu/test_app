@@ -168,7 +168,7 @@ class _CaseOpeningScreenState extends State<CaseOpeningScreen> with SingleTicker
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.caseItem.name} - CS:GO Case Opening Simulator'), // Display case name in app bar title
+        title: Text('${widget.caseItem.name} '), // Display case name in app bar title
         leading: Builder(
           builder: (context) {
             return IconButton(
