@@ -6,7 +6,18 @@ class UserProvider with ChangeNotifier {
   User? _user; // Private field to store the current user
   // List of available cases with their details
   final List<Case> cases = [
-  Case('Standard Case', [
+  Case('csgo weapon case', [
+    {'id': 1, 'name': 'Consumer Grade Item', 'rarity': 'Consumer Grade', 'images': ['']},
+    {'id': 2, 'name': 'Industrial Grade', 'rarity': 'Industrial Grade', 'images': ['']},
+    {'id': 3, 'name': 'Mil-Spec', 'rarity': 'Mil-Spec', 'images': ['']},
+    {'id': 4, 'name': 'Restricted', 'rarity': 'Restricted', 'images': ['']},
+    {'id': 5, 'name': 'Classified', 'rarity': 'Classified', 'images': ['']},
+    {'id': 6, 'name': 'Covert', 'rarity': 'Covert', 'images': ['']},
+    {'id': 7, 'name': 'Extraordinary', 'rarity': 'Extraordinary', 'images': ['']},
+    {'id': 8, 'name': 'Contraband', 'rarity': 'Contraband', 'images': ['']},
+  ]),
+
+  Case('eSports 2013 Case', [
     {'id': 1, 'name': 'Consumer Grade Item', 'rarity': 'Consumer Grade', 'images': ['']},
     {'id': 2, 'name': 'Industrial Grade', 'rarity': 'Industrial Grade', 'images': ['']},
     {'id': 3, 'name': 'Mil-Spec', 'rarity': 'Mil-Spec', 'images': ['']},

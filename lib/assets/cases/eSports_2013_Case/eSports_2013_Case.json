@@ -1,0 +1,832 @@
+{
+    "id": "crate-4002",
+    "name": "eSports 2013 Case",
+    "description": "A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools.",
+    "type": "Case",
+    "first_sale_date": "2014/07/09",
+    "contains": [
+      {
+        "id": "skin-1049280",
+        "name": "M4A4 | Faded Zebra",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "Mil-Spec Grade",
+          "color": "#4b69ff"
+        },
+        "paint_index": "176",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_sp_zebracam_bw_light_png.png"
+      },
+      {
+        "id": "skin-1770180",
+        "name": "MAG-7 | Memento",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "Mil-Spec Grade",
+          "color": "#4b69ff"
+        },
+        "paint_index": "177",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_hy_icosahedron_light_png.png"
+      },
+      {
+        "id": "skin-656072",
+        "name": "FAMAS | Doomkitty",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "Mil-Spec Grade",
+          "color": "#4b69ff"
+        },
+        "paint_index": "178",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_hy_doomkitty_light_png.png"
+      },
+      {
+        "id": "skin-852300",
+        "name": "Galil AR | Orange DDPAT",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "Restricted",
+          "color": "#8847ff"
+        },
+        "paint_index": "83",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_hy_ddpat_orange_light_png.png"
+      },
+      {
+        "id": "skin-1900876",
+        "name": "Sawed-Off | Orange DDPAT",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "Restricted",
+          "color": "#8847ff"
+        },
+        "paint_index": "83",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_hy_ddpat_orange_light_png.png"
+      },
+      {
+        "id": "skin-2359944",
+        "name": "P250 | Splash",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "Restricted",
+          "color": "#8847ff"
+        },
+        "paint_index": "162",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_sp_splash_p250_light_png.png"
+      },
+      {
+        "id": "skin-458808",
+        "name": "AK-47 | Red Laminate",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "Classified",
+          "color": "#d32ce6"
+        },
+        "paint_index": "14",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_hy_ak47lam_light_png.png"
+      },
+      {
+        "id": "skin-590520",
+        "name": "AWP | BOOM",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "Classified",
+          "color": "#d32ce6"
+        },
+        "paint_index": "174",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_hy_blam_simple_light_png.png"
+      },
+      {
+        "id": "skin-1245808",
+        "name": "P90 | Death by Kitty",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "156",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_cu_catskulls_p90_light_png.png"
+      }
+    ],
+    "contains_rare": [
+      {
+        "id": "skin-vanilla-weapon_bayonet",
+        "name": "★ Bayonet",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": null,
+        "phase": null,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.png"
+      },
+      {
+        "id": "skin-32768152",
+        "name": "★ Bayonet | Fade",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "38",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_aa_fade_light_png.png"
+      },
+      {
+        "id": "skin-32768236",
+        "name": "★ Bayonet | Slaughter",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "59",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_am_zebra_light_png.png"
+      },
+      {
+        "id": "skin-32768176",
+        "name": "★ Bayonet | Case Hardened",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "44",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_aq_oiled_light_png.png"
+      },
+      {
+        "id": "skin-32768160",
+        "name": "★ Bayonet | Night",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "40",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_so_night_light_png.png"
+      },
+      {
+        "id": "skin-32768168",
+        "name": "★ Bayonet | Blue Steel",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "42",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_aq_blued_light_png.png"
+      },
+      {
+        "id": "skin-32768048",
+        "name": "★ Bayonet | Crimson Web",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "12",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_hy_webs_light_png.png"
+      },
+      {
+        "id": "skin-32768172",
+        "name": "★ Bayonet | Stained",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "43",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_aq_forced_light_png.png"
+      },
+      {
+        "id": "skin-32768700",
+        "name": "★ Bayonet | Scorched",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "175",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_sp_dapple_light_png.png"
+      },
+      {
+        "id": "skin-32768288",
+        "name": "★ Bayonet | Safari Mesh",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "72",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_sp_mesh_tan_light_png.png"
+      },
+      {
+        "id": "skin-32768308",
+        "name": "★ Bayonet | Boreal Forest",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "77",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_hy_forest_boreal_light_png.png"
+      },
+      {
+        "id": "skin-32768572",
+        "name": "★ Bayonet | Urban Masked",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "143",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_sp_tape_urban_light_png.png"
+      },
+      {
+        "id": "skin-32768020",
+        "name": "★ Bayonet | Forest DDPAT",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "5",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bayonet_hy_ddpat_light_png.png"
+      },
+      {
+        "id": "skin-vanilla-weapon_knife_flip",
+        "name": "★ Flip Knife",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": null,
+        "phase": null,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.png"
+      },
+      {
+        "id": "skin-33095832",
+        "name": "★ Flip Knife | Fade",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "38",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_aa_fade_light_png.png"
+      },
+      {
+        "id": "skin-33095916",
+        "name": "★ Flip Knife | Slaughter",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "59",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_am_zebra_light_png.png"
+      },
+      {
+        "id": "skin-33095856",
+        "name": "★ Flip Knife | Case Hardened",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "44",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_aq_oiled_light_png.png"
+      },
+      {
+        "id": "skin-33095840",
+        "name": "★ Flip Knife | Night",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "40",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_so_night_light_png.png"
+      },
+      {
+        "id": "skin-33095848",
+        "name": "★ Flip Knife | Blue Steel",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "42",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_aq_blued_light_png.png"
+      },
+      {
+        "id": "skin-33095728",
+        "name": "★ Flip Knife | Crimson Web",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "12",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_hy_webs_light_png.png"
+      },
+      {
+        "id": "skin-33095852",
+        "name": "★ Flip Knife | Stained",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "43",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_aq_forced_light_png.png"
+      },
+      {
+        "id": "skin-33096380",
+        "name": "★ Flip Knife | Scorched",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "175",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_sp_dapple_light_png.png"
+      },
+      {
+        "id": "skin-33095968",
+        "name": "★ Flip Knife | Safari Mesh",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "72",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_sp_mesh_tan_light_png.png"
+      },
+      {
+        "id": "skin-33095988",
+        "name": "★ Flip Knife | Boreal Forest",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "77",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_hy_forest_boreal_light_png.png"
+      },
+      {
+        "id": "skin-33096252",
+        "name": "★ Flip Knife | Urban Masked",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "143",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_sp_tape_urban_light_png.png"
+      },
+      {
+        "id": "skin-33095700",
+        "name": "★ Flip Knife | Forest DDPAT",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "5",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_flip_hy_ddpat_light_png.png"
+      },
+      {
+        "id": "skin-vanilla-weapon_knife_gut",
+        "name": "★ Gut Knife",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": null,
+        "phase": null,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.png"
+      },
+      {
+        "id": "skin-33161368",
+        "name": "★ Gut Knife | Fade",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "38",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_aa_fade_light_png.png"
+      },
+      {
+        "id": "skin-33161452",
+        "name": "★ Gut Knife | Slaughter",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "59",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_am_zebra_light_png.png"
+      },
+      {
+        "id": "skin-33161392",
+        "name": "★ Gut Knife | Case Hardened",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "44",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_aq_oiled_light_png.png"
+      },
+      {
+        "id": "skin-33161376",
+        "name": "★ Gut Knife | Night",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "40",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_so_night_light_png.png"
+      },
+      {
+        "id": "skin-33161384",
+        "name": "★ Gut Knife | Blue Steel",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "42",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_aq_blued_light_png.png"
+      },
+      {
+        "id": "skin-33161264",
+        "name": "★ Gut Knife | Crimson Web",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "12",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_hy_webs_light_png.png"
+      },
+      {
+        "id": "skin-33161388",
+        "name": "★ Gut Knife | Stained",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "43",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_aq_forced_light_png.png"
+      },
+      {
+        "id": "skin-33161916",
+        "name": "★ Gut Knife | Scorched",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "175",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_sp_dapple_light_png.png"
+      },
+      {
+        "id": "skin-33161504",
+        "name": "★ Gut Knife | Safari Mesh",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "72",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_sp_mesh_tan_light_png.png"
+      },
+      {
+        "id": "skin-33161524",
+        "name": "★ Gut Knife | Boreal Forest",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "77",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_hy_forest_boreal_light_png.png"
+      },
+      {
+        "id": "skin-33161788",
+        "name": "★ Gut Knife | Urban Masked",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "143",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_sp_tape_urban_light_png.png"
+      },
+      {
+        "id": "skin-33161236",
+        "name": "★ Gut Knife | Forest DDPAT",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "5",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_gut_hy_ddpat_light_png.png"
+      },
+      {
+        "id": "skin-vanilla-weapon_knife_karambit",
+        "name": "★ Karambit",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": null,
+        "phase": null,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.png"
+      },
+      {
+        "id": "skin-33226904",
+        "name": "★ Karambit | Fade",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "38",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_aa_fade_light_png.png"
+      },
+      {
+        "id": "skin-33226988",
+        "name": "★ Karambit | Slaughter",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "59",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_am_zebra_light_png.png"
+      },
+      {
+        "id": "skin-33226928",
+        "name": "★ Karambit | Case Hardened",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "44",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_aq_oiled_light_png.png"
+      },
+      {
+        "id": "skin-33226912",
+        "name": "★ Karambit | Night",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "40",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_so_night_light_png.png"
+      },
+      {
+        "id": "skin-33226920",
+        "name": "★ Karambit | Blue Steel",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "42",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_aq_blued_light_png.png"
+      },
+      {
+        "id": "skin-33226800",
+        "name": "★ Karambit | Crimson Web",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "12",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_hy_webs_light_png.png"
+      },
+      {
+        "id": "skin-33226924",
+        "name": "★ Karambit | Stained",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "43",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_aq_forced_light_png.png"
+      },
+      {
+        "id": "skin-33227452",
+        "name": "★ Karambit | Scorched",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "175",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_sp_dapple_light_png.png"
+      },
+      {
+        "id": "skin-33227040",
+        "name": "★ Karambit | Safari Mesh",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "72",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_sp_mesh_tan_light_png.png"
+      },
+      {
+        "id": "skin-33227060",
+        "name": "★ Karambit | Boreal Forest",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "77",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_hy_forest_boreal_light_png.png"
+      },
+      {
+        "id": "skin-33227324",
+        "name": "★ Karambit | Urban Masked",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "143",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_sp_tape_urban_light_png.png"
+      },
+      {
+        "id": "skin-33226772",
+        "name": "★ Karambit | Forest DDPAT",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "5",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_karambit_hy_ddpat_light_png.png"
+      },
+      {
+        "id": "skin-vanilla-weapon_knife_m9_bayonet",
+        "name": "★ M9 Bayonet",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": null,
+        "phase": null,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.png"
+      },
+      {
+        "id": "skin-33292440",
+        "name": "★ M9 Bayonet | Fade",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "38",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_aa_fade_light_png.png"
+      },
+      {
+        "id": "skin-33292524",
+        "name": "★ M9 Bayonet | Slaughter",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "59",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_am_zebra_light_png.png"
+      },
+      {
+        "id": "skin-33292464",
+        "name": "★ M9 Bayonet | Case Hardened",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "44",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_aq_oiled_light_png.png"
+      },
+      {
+        "id": "skin-33292448",
+        "name": "★ M9 Bayonet | Night",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "40",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_so_night_light_png.png"
+      },
+      {
+        "id": "skin-33292456",
+        "name": "★ M9 Bayonet | Blue Steel",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "42",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_aq_blued_light_png.png"
+      },
+      {
+        "id": "skin-33292336",
+        "name": "★ M9 Bayonet | Crimson Web",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "12",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_hy_webs_light_png.png"
+      },
+      {
+        "id": "skin-33292460",
+        "name": "★ M9 Bayonet | Stained",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "43",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_aq_forced_light_png.png"
+      },
+      {
+        "id": "skin-33292988",
+        "name": "★ M9 Bayonet | Scorched",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "175",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_sp_dapple_light_png.png"
+      },
+      {
+        "id": "skin-33292576",
+        "name": "★ M9 Bayonet | Safari Mesh",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "72",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_sp_mesh_tan_light_png.png"
+      },
+      {
+        "id": "skin-33292596",
+        "name": "★ M9 Bayonet | Boreal Forest",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "77",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_hy_forest_boreal_light_png.png"
+      },
+      {
+        "id": "skin-33292860",
+        "name": "★ M9 Bayonet | Urban Masked",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "143",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_sp_tape_urban_light_png.png"
+      },
+      {
+        "id": "skin-33292308",
+        "name": "★ M9 Bayonet | Forest DDPAT",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "Covert",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "5",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_m9_bayonet_hy_ddpat_light_png.png"
+      }
+    ],
+    "market_hash_name": "eSports 2013 Case",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png"
+  }

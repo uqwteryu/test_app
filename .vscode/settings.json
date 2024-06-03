@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/Users/nikolaisapiano/Desktop/development/test/test_app/linux"
+    "cmake.sourceDirectory": "C:/Users/sapin002/OneDrive - Malta Information Technology Agency/Desktop/code/test_app/linux",
+    "workbench.colorCustomizations": {
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000"
+    }
 }
