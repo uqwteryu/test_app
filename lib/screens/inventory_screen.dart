@@ -6,12 +6,15 @@ class InventoryScreen extends StatelessWidget {
   InventoryScreen({super.key});
 
   final Map<String, Color> rarityColors = {
-    'common': Colors.grey,
-    'uncommon': Colors.green,
-    'rare': Colors.blue,
-    'epic': Colors.purple,
-    'legendary': Colors.orange,
-  };
+  'Consumer Grade': Colors.white,
+  'Industrial Grade': Colors.lightBlue,
+  'Mil-Spec': Colors.blue,
+  'Restricted': Colors.purple,
+  'Classified': Colors.pink,
+  'Covert': Colors.red,
+  'Extraordinary': Colors.yellow, // Gold
+  'Contraband': Colors.orange,
+};
 
   @override
   Widget build(BuildContext context) {

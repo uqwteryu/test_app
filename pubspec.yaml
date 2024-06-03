@@ -19,7 +19,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - lib/assets/da3cj6j-ebe8e371-cb11-4c4c-9a09-7bb101750342.png
-    - lib/assets/unnamed.png
-    - lib/assets/png-transparent-cs-go-weapon-case-thumbnail.png

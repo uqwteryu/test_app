@@ -6,15 +6,18 @@ class UserProvider with ChangeNotifier {
   User? _user; // Private field to store the current user
   // List of available cases with their details
   final List<Case> cases = [
-    Case('Standard Case', [
-      {'id': 1, 'name': 'Common Item', 'rarity': 'common', 'images': ['lib/assets/unnamed.png']},
-      {'id': 2, 'name': 'Uncommon Item', 'rarity': 'uncommon', 'images': ['lib/assets/unnamed.png']},
-      {'id': 3, 'name': 'Rare Item', 'rarity': 'rare', 'images': ['lib/assets/unnamed.png']},
-      {'id': 4, 'name': 'Epic Item', 'rarity': 'epic', 'images': ['lib/assets/da3cj6j-ebe8e371-cb11-4c4c-9a09-7bb101750342.png']},
-      {'id': 5, 'name': 'Legendary Item', 'rarity': 'legendary', 'images': ['lib/assets/da3cj6j-ebe8e371-cb11-4c4c-9a09-7bb101750342.png']}
-    ]),
-    // Add more cases as needed
-  ];
+  Case('Standard Case', [
+    {'id': 1, 'name': 'Consumer Grade Item', 'rarity': 'Consumer Grade', 'images': ['']},
+    {'id': 2, 'name': 'Industrial Grade', 'rarity': 'Industrial Grade', 'images': ['']},
+    {'id': 3, 'name': 'Mil-Spec', 'rarity': 'Mil-Spec', 'images': ['']},
+    {'id': 4, 'name': 'Restricted', 'rarity': 'Restricted', 'images': ['']},
+    {'id': 5, 'name': 'Classified', 'rarity': 'Classified', 'images': ['']},
+    {'id': 6, 'name': 'Covert', 'rarity': 'Covert', 'images': ['']},
+    {'id': 7, 'name': 'Extraordinary', 'rarity': 'Extraordinary', 'images': ['']},
+    {'id': 8, 'name': 'Contraband', 'rarity': 'Contraband', 'images': ['']},
+  ]),
+  // Add more cases as needed
+];
 
   User? get user => _user; // Getter for accessing the current user
 

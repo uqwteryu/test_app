@@ -384,28 +384,38 @@ class _CaseOpeningScreenState extends State<CaseOpeningScreen> with SingleTicker
 
   // Map of rarity colors
   final Map<String, Color> rarityColors = {
-    'common': Colors.grey,
-    'uncommon': Colors.green,
-    'rare': Colors.blue,
-    'epic': Colors.purple,
-    'legendary': Colors.orange,
-  };
+  'Consumer Grade': Colors.white,
+  'Industrial Grade': Colors.lightBlue,
+  'Mil-Spec': Colors.blue,
+  'Restricted': Colors.purple,
+  'Classified': Colors.pink,
+  'Covert': Colors.red,
+  'Extraordinary': Colors.yellow, // Gold
+  'Contraband': Colors.orange,
+};
+
 
   // Method to get the probability of getting an item based on its index
-  String getProbability(int index) {
-    switch (index) {
-      case 0:
-        return '50'; // Common
-      case 1:
-        return '30'; // Uncommon
-      case 2:
-        return '15'; // Rare
-      case 3:
-        return '4'; // Epic
-      case 4:
-        return '1'; // Legendary
-      default:
-        return '0';
+ String getProbability(String rarity) {
+  switch (rarity) {
+    case 'Consumer Grade':
+      return '50%'; // Common
+    case 'Industrial Grade':
+      return '30%'; // Uncommon
+    case 'Mil-Spec':
+      return '15%'; // Rare
+    case 'Restricted':
+      return '4%'; // Epic
+    case 'Classified':
+      return '1%'; // Legendary
+    case 'Covert':
+      return '0%'; // No Covert in your rarityColors map
+    case 'Extraordinary':
+      return '0%'; // No Extraordinary in your rarityColors map
+    case 'Contraband':
+      return '0%'; // No Contraband in your rarityColors map
+    default:
+      return '0%'; // Default to 0% for any unknown rarity
     }
   }
 }
