@@ -18,8 +18,15 @@ The **CS:GO Case Opening Simulator** is a Flutter application that allows users 
 ```plaintext
 lib/
 ├── assets/
-│   ├── unnamed.png
-│   └── da3cj6j-ebe8e371-cb11-4c4c-9a09-7bb101750342.png
+│   ├── counter-strike-file-tracker-main/
+│   │   └── static/
+│   │       └── csgo_english.json
+│   └── CSGO-API-main/
+│       ├── public/
+│       │   └── services/
+│       │       ├── da3cj6j-ebe8e371-cb11-4c4c-9a09-7bb101750342.png
+│       │       ├── png-transparent-cs-go-weapon-case-thumbnail.png
+│       │       └── unnamed.png
 ├── main.dart
 ├── models/
 │   ├── case.dart
@@ -27,8 +34,8 @@ lib/
 ├── providers/
 │   └── user_provider.dart
 ├── screens/
-│   ├── login_screen.dart
+│   ├── case_opening_screen.dart
 │   ├── case_selection_screen.dart
 │   ├── inventory_screen.dart
-│   └── case_opening_screen.dart
+│   ├── login_screen.dart
 │   └── settings_screen.dart
