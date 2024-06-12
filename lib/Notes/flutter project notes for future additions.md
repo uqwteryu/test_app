@@ -23,6 +23,7 @@ Ensure the app utilizes the provided JSON file for item information and implemen
   "paint_index": "11",
   "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_hy_skulls_light_png.png"
 }
+```
 
 ### 2. Case Sensitivity
 
