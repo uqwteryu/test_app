@@ -1,50 +1,68 @@
-import 'package:flutter/material.dart'; // Flutter Material package
-import 'package:provider/provider.dart'; // Provider package for state management
-import 'package:test_app/providers/user_provider.dart'; // Importing UserProvider class
-import 'package:test_app/screens/login_screen.dart'; // Importing LoginScreen class
+import 'dart:io';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:test_app/providers/user_provider.dart';
+import 'package:test_app/screens/login_screen.dart';
 
-void main() {
+void main() async {
+  // Run the Python script
+  await _runPythonScript();
+
+  // Once the Python script execution is complete, runApp
   runApp(
-    ChangeNotifierProvider( // Provider for providing UserProvider to the app
-      create: (_) => UserProvider(), // Creating instance of UserProvider
-      child: const MyApp(), // MyApp widget as the root of the app
+    ChangeNotifierProvider(
+      create: (_) => UserProvider(),
+      child: const MyApp(),
     ),
   );
 }
 
-// MyApp widget for the root of the application
+Future<void> _runPythonScript() async {
+  try {
+    // Replace 'path_to_your_python_script.py' with the actual path to your Python script
+    final process = await Process.start('python', ['C:/Users/sapin002/OneDrive - Malta Information Technology Agency/Desktop/code/Github Apps/test_app/lib/backend/test.py']);
+    final exitCode = await process.exitCode;
+    if (kDebugMode) {
+      print('Python script exited with code $exitCode');
+    }
+  } catch (e) {
+    if (kDebugMode) {
+      print('Error running Python script: $e');
+    }
+  }
+}
+
 class MyApp extends StatefulWidget {
-  const MyApp({super.key}); // Constructor for the MyApp class
+  const MyApp({super.key});
 
   @override
   // ignore: library_private_types_in_public_api
-  _MyAppState createState() => _MyAppState(); // Creating state for the MyApp widget
+  _MyAppState createState() => _MyAppState();
 }
 
-// State class for the MyApp widget
 class _MyAppState extends State<MyApp> {
-  final ValueNotifier<ThemeMode> _themeModeNotifier = ValueNotifier(ThemeMode.dark); // ValueNotifier for managing theme mode
+  final ValueNotifier<ThemeMode> _themeModeNotifier = ValueNotifier(ThemeMode.dark);
 
-  // Build method to construct the UI
   @override
   Widget build(BuildContext context) {
-    return ValueListenableBuilder<ThemeMode>( // Builder for listening to changes in theme mode
-      valueListenable: _themeModeNotifier, // ValueNotifier to listen to changes in theme mode
-      builder: (context, ThemeMode themeMode, _) { // Builder method to build UI based on theme mode
-        return MaterialApp( // MaterialApp widget for the overall app
-          title: 'CS:GO Case Opening Simulator', // Title of the app
-          theme: ThemeData( // Light theme data
-            brightness: Brightness.light, // Light brightness
-            primaryColor: Colors.blueGrey, // Primary color
-            visualDensity: VisualDensity.adaptivePlatformDensity, // Visual density
+    return ValueListenableBuilder<ThemeMode>(
+      valueListenable: _themeModeNotifier,
+      builder: (context, ThemeMode themeMode, _) {
+        return MaterialApp(
+          title: 'CS:GO Case Opening Simulator',
+          theme: ThemeData(
+            brightness: Brightness.light,
+            primaryColor: Colors.blueGrey,
+            visualDensity: VisualDensity.adaptivePlatformDensity,
           ),
-          darkTheme: ThemeData( // Dark theme data
-            brightness: Brightness.dark, // Dark brightness
-            primaryColor: Colors.blueGrey, // Primary color
-            visualDensity: VisualDensity.adaptivePlatformDensity, // Visual density
+          darkTheme: ThemeData(
+            brightness: Brightness.dark,
+            primaryColor: Colors.blueGrey,
+            visualDensity: VisualDensity.adaptivePlatformDensity,
           ),
-          themeMode: themeMode, // Current theme mode
-          home: const LoginScreen(), // Initial screen of the app is the login screen
+          themeMode: themeMode,
+          home: const LoginScreen(),
         );
       },
     );
